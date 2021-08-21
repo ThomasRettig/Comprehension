@@ -45,9 +45,12 @@
                background: white;
                padding: 50px;
             }
+            .top-fade, bottom-fade {
+               visibility: none;
+            }
          }
          @media print {
-           .faux-button, .faux-button-hollow {
+           .faux-button, .faux-button-hollow, .top-fade, .bottom-fade {
              display: none;
            }
            img {
